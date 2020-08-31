@@ -73,25 +73,24 @@ li{
 li:nth-last-of-type(4){
     background-image: url(./ressources/bien.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 3%;
-    margin: 0 61% 0 0
+    background-size: 16px;
+    background-position-x: 19%;
 }
 
 li:nth-last-of-type(3){
     background-image: url(./ressources/mal.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 3%;
-    margin: 10px 60% 0 0
+    background-size: 16px;
+    background-position-x: 19.5%;
+    margin: 10px 0 0 0;
 }
 
 li:nth-last-of-type(2){
     background-image: url(./ressources/chat.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 3%;
-    margin: 10px 55% 0 0
+    background-size: 16px;
+    background-position-x: 22%;
+    margin: 10px 0 0 0
 }
 
 td:first-child{
