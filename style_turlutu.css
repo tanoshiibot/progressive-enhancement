@@ -1,0 +1,169 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; 
+    padding: 0;
+}
+
+body{
+    background: #1E93CC;
+}
+
+header{
+    background-color: #333333;
+    position: fixed;
+    width: 100%;
+}
+
+#logo{
+    width: 50%;
+    height: 50%;
+}
+
+.black_button *{
+    display: inline-block;
+    color: white;
+}
+
+.black_button{
+    color: white;
+}
+
+.black_button:hover{
+    color: white;
+}
+
+.blue_button{
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    background: #165882;
+    border-radius: 10px;
+    padding: 10px 21px 10px 21px;
+    color: white;
+}
+
+.blue_button:hover{
+    background: #6292b1;
+}
+
+.yellow_button{
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    background: #E99002;
+    border-radius: 10px;
+    padding: 10px 21px 10px 21px;
+    color: white;
+}
+
+.yellow_button:hover{
+    background: #f0c47d;
+}
+
+
+ol{
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+}
+
+#bloc1{
+    color: white;
+    text-align: center;
+}
+
+#bloc1 .yellow_button{
+    margin: 15px 41% 20px 41%;
+}
+
+#bloc2 p{
+    background: white;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+#bloc3{
+    color: white;
+    padding: 20px 20px 20px 20px;
+}
+
+
+#bloc3 td p:first-child{
+    font-size: large;
+    padding: 30px 0 10px 0;
+}
+
+#bloc3 td p:last-child{
+    font-size: small;
+}
+
+#bloc4 p{
+    background: white;
+    color: #868b8d;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+#bloc5{
+    background: #EEEEEE;
+    border-top-style: solid;
+    border-top-color: #e7e7e7;
+    border-top-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #e7e7e7;
+    border-bottom-width: 2px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25% 0 25%;
+}
+
+#bloc5 img{
+    margin: 30px 20px 30px 20px;
+    width: 10%;
+    height: 10%;
+}
+
+#bloc5 img:hover{
+    opacity:0.7;
+}
+
+#bloc5 img:nth-child(2){
+    width: 5%;
+    height: 5%;
+}
+
+#bloc5 img:last-child{
+    width: 20%;
+    height: 20%;
+    margin: 0 0 0 35%;
+}
+
+#bloc6{
+    text-align: center;
+    background: white;
+    padding: 25px 0 60px 0;
+}
+
+
+footer{
+    background-color: #222222;
+    color: white;
+}
+
+#bubble{
+    border-style: solid;
+    border-radius: 50%;
+    border-color: #165882;
+    background: #165882;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.199);
+    position: fixed;
+    bottom:20px;
+    right:20px;
+}
+
+#bubble:hover{
+    border-color: #6292b1;
+    background: #6292b1;
+}
